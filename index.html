@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrex | Web Developer</title>
+    <meta name="description" content="Lyrex's personal portfolio showcasing web development skills, projects, and creative work.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">LYREX<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">Let's Talk <span>↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Available for Projects
+                </div>
+
+                <p class="hero-intro">HELLO, I'M LYREX</p>
+
+                <h1>
+                    Creative Web<br>
+                    Developer<span class="gradient-text">.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I build modern, responsive, and interactive websites
+                    with clean code and creative design.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary-button">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="button secondary-button">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <span>FIND ME ON</span>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="developer-card">
+                    <div class="card-top">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span>developer.js</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'Lyrex'</span>,</p>
+                        <p class="indent"><span class="code-blue">role</span>: <span class="code-green">'Web Developer'</span>,</p>
+                        <p class="indent"><span class="code-blue">skills</span>: [</p>
+                        <p class="indent-two"><span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</p>
+                        <p class="indent-two"><span class="code-green">'JavaScript'</span></p>
+                        <p class="indent">],</p>
+                        <p class="indent"><span class="code-blue">passion</span>: <span class="code-green">'Creating'</span></p>
+                        <p>};</p>
+                        <br>
+                        <p><span class="code-purple">while</span> (learning) {</p>
+                        <p class="indent">buildSomething();</p>
+                        <p>}</p>
+                        <span class="cursor"></span>
+                    </div>
+                </div>
+
+                <div class="floating-icon icon-html">HTML</div>
+                <div class="floating-icon icon-css">CSS</div>
+                <div class="floating-icon icon-js">JS</div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p class="section-description">A little introduction about who I am and what I do.</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <span>L</span>
+                        <p>LYREX</p>
+                    </div>
+                    <div class="image-decoration"></div>
+                </div>
+
+                <div class="about-text">
+                    <h3>Turning Ideas Into Digital Experiences.</h3>
+
+                    <p>
+                        Hey! I'm Lyrex, an aspiring web developer passionate
+                        about creating websites that look great and work smoothly.
+                    </p>
+
+                    <p>
+                        I enjoy learning new technologies, experimenting with
+                        designs, and building projects that improve my skills.
+                        My journey started with HTML and CSS, and I'm continuing
+                        to explore JavaScript and modern web development.
+                    </p>
+
+                    <div class="about-details">
+                        <div>
+                            <span class="detail-label">NAME</span>
+                            <strong>Yaseen (Lyrex)</strong>
+                        </div>
+
+                        <div>
+                            <span class="detail-label">FOCUS</span>
+                            <strong>Web Development</strong>
+                        </div>
+
+                        <div>
+                            <span class="detail-label">LOCATION</span>
+                            <strong>Pakistan</strong>
+                        </div>
+
+                        <div>
+                            <span class="detail-label">INTERESTS</span>
+                            <strong>Design & Technology</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="section-heading">
+                <p class="section-label">WHAT I WORK WITH</p>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+                <p class="section-description">Technologies I'm learning and using to create websites.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon html-icon">5</div>
+                    <h3>HTML</h3>
+                    <p>Building structured and accessible web pages.</p>
+                    <span class="skill-tag">Structure</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon css-icon">#</div>
+                    <h3>CSS</h3>
+                    <p>Creating layouts, animations, and responsive designs.</p>
+                    <span class="skill-tag">Styling</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding functionality and interactive experiences.</p>
+                    <span class="skill-tag">Interactivity</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">⌘</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Managing projects and tracking code changes.</p>
+                    <span class="skill-tag">Version Control</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-heading">
+                <p class="section-label">MY RECENT WORK</p>
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-description">Some projects I've built or am currently working on.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image project-one">
+                        <div class="mock-browser">
+                            <div class="mock-top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mock-content">
+                                <div class="mock-title"></div>
+                                <div class="mock-line"></div>
+                                <div class="mock-line short"></div>
+                                <div class="mock-button"></div>
+                            </div>
+                        </div>
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div class="project-type">WEB DEVELOPMENT</div>
+                        <h3>Personal Portfolio</h3>
+                        <p>A modern portfolio website showcasing skills, projects, and contact information.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-two">
+                        <div class="store-preview">
+                            <div class="store-nav">LYREX STORE</div>
+                            <div class="store-box">
+                                <div class="store-square"></div>
+                                <div class="store-square"></div>
+                                <div class="store-square"></div>
+                            </div>
+                        </div>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div class="project-type">BUSINESS WEBSITE</div>
+                        <h3>Modern Online Store</h3>
+                        <p>A clean storefront concept designed for displaying products and services.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-three">
+                        <div class="dashboard-preview">
+                            <div class="dashboard-sidebar"></div>
+                            <div class="dashboard-main">
+                                <div class="dashboard-heading"></div>
+                                <div class="dashboard-stats">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="dashboard-chart"></div>
+                            </div>
+                        </div>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div class="project-type">WEB APPLICATION</div>
+                        <h3>Interactive Dashboard</h3>
+                        <p>A dashboard concept featuring a structured layout and interactive components.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact-box">
+                <p class="section-label">HAVE A PROJECT IN MIND?</p>
+                <h2>Let's Build Something <span class="gradient-text">Amazing.</span></h2>
+                <p>
+                    Have an idea, a project, or just want to connect?
+                    Feel free to reach out.
+                </p>
+
+                <a href="mailto:your-email@example.com" class="button primary-button">
+                    Get In Touch <span>↗</span>
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">LYREX<span>.</span></a>
+        <p>Designed & Built by Lyrex</p>
+        <p>© <span id="year"></span> All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
